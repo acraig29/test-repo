@@ -1,0 +1,39 @@
+// pushing files from git local to Github online
+//uploading a markup file '.md'
+
+// can alos use the YOutube video: https://youtu.be/wK1A2mNrZ9c
+
+
+//Change local directory
+lisbo@LAPTOP-EBQU1OTF MINGW64 ~
+$ cd "/C/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test/"
+
+// Initialise the local repository
+lisbo@LAPTOP-EBQU1OTF MINGW64 /C/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test/.git/
+e
+// add all the files 
+lisbo@LAPTOP-EBQU1OTF MINGW64 /C/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test (master)
+$ git add -A
+
+// commit all files
+lisbo@LAPTOP-EBQU1OTF MINGW64 /C/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test (master)
+$ git commit -m 'all done'
+[master (root-commit) d575113] all done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HelloWorld.md
+
+ 
+ // then push files to Github
+lisbo@LAPTOP-EBQU1OTF MINGW64 /C/Users/lisbo/OneDrive/IT Courses/JohnHopkins DS/Module1/mod1test (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 242 bytes | 242.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/acraig29/datasciencecoursera.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
